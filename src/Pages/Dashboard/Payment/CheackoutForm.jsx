@@ -14,7 +14,7 @@ const CheackoutForm = () => {
     const [error, setError] = useState('');
     const [clientSecret, setClientSecret] = useState('');
     const [transactionId, setTransactionId] = useState('');
-    const nagivate = useNavigate();
+    const navigate = useNavigate();
 
     const location = useLocation();
     const { slot, selectedPackage } = location.state;
@@ -112,7 +112,7 @@ const CheackoutForm = () => {
                                     timer: 2000,
                                     showConfirmButton: false
                                   });
-                                  Navigate('/bookedTrainer')
+                                  navigate('/dashboard/bookedTrainer')
                             }
                         })
                     }
