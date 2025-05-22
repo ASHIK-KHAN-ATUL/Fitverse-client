@@ -23,7 +23,7 @@ const Trainer = () => {
     return (
         <div className='py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-5'>
             {trainers.map( trainer =>
-                <div key={trainer._id} className="card bg-[#bbdefb] w-80 mx-auto border-2 border-blue-300 hover:drop-shadow-sm duration-500 cursor-pointer " style={{boxShadow: '0 4px 30px rgba(59, 130, 246, 0.7)' }}>
+                <div key={trainer._id} className="card w-80 mx-auto  bg-[#90e0ef]/20  border-2 border-[#90e0ef]  duration-500 cursor-pointer " >
                     <figure className="mx-auto mt-5 h-48 w-48">
                         <img
                             src={trainer.image}

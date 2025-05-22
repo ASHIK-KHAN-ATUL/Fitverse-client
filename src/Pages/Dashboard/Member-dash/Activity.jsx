@@ -41,7 +41,7 @@ const Activity = () => {
                     <th></th>
                     <th>Name</th>
                     <th>Status</th>
-                    <th>Favorite Color</th>
+                    <th>Feedback</th>
                 </tr>
                 </thead>
                 {

@@ -37,11 +37,11 @@ const NewsletterSection = () => {
 
                         <div className=' mx-[10%]'>
                             <label className="fieldset-label text-black font-bold ">Name</label>
-                                <input type="text"  name='name' className="input bg-white text-black w-full" placeholder="Name" />
+                                <input type="text"  name='name' className="input bg-white text-black w-full" placeholder="Enter Your Name" />
                         </div>
                         <div className=' mx-[10%]'>
                             <label className="fieldset-label text-black font-bold">Email</label>
-                                <input type="email"  name='email' className="input bg-white text-black w-full " placeholder="Name" />
+                                <input type="email"  name='email' className="input bg-white text-black w-full " placeholder="Enter Your Email" />
                         </div>
 
                         <div className="w-full md:w-auto flex items-end">

@@ -44,7 +44,7 @@ const FeaturedSection = () => {
           {features.map((feature, idx) => (
             <div
               key={idx}
-              className="bg-[#90e0ef]/20  border-2 border-[#90e0ef] hover:bg-[#90e0ef]/50 shadow-lg rounded-2xl p-6  hover:shadow-2xl scale-90 hover:scale-100 transition-all duration-500 text-center"
+              className="bg-[#90e0ef]/20  border-2 border-[#90e0ef] hover:bg-[#90e0ef]/50 shadow-lg rounded-2xl p-6  hover:shadow-2xl scale-90 transition-all duration-500 text-center"
             >
               <div className="mb-4 flex justify-center">{feature.icon}</div>
               <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
